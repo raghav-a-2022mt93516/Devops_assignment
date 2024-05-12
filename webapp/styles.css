@@ -1,4 +1,4 @@
-/* styles.css */
+﻿/* styles.css */
 
 body {
     font-family: Arial, sans-serif;
@@ -15,7 +15,7 @@ body {
 table {
     width: 100%;
     border-collapse: collapse;
-    background-color: #fff;
+    background-color: #zzz;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -32,7 +32,7 @@ th {
 
 tr:hover td {
     color: #fff;
-    background-color: #123;
+    background-color: #345;
     cursor: pointer;
 }
 

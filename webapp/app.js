@@ -50,7 +50,8 @@ const ques = Vue.createApp({
 }
 
 var modal = document.getElementById("myModal");
-    
+    // Fetch data when the Vue.js application is mounted
+
    
     var btn = document.getElementById("myBtn");
     var span = document.getElementsByClassName("close")[0];
@@ -99,7 +100,8 @@ var modal = document.getElementById("myModal");
       fetchAndLogPartnerData();
   });
   
-   
+   // Fetch data when the Vue.js application is mounted
+
     function addData() {
         var newData = document.getElementById("updateInput").value;
         console.log("New data:", newData);
